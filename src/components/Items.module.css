@@ -1,0 +1,24 @@
+.radioArea {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+  margin-top:30px;
+  margin-bottom:60px;
+  padding: 10px;
+  color: #999;
+  font-size:0.8em;
+}
+label {
+  padding:10px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px dotted #ccc;
+}
+label:first-child {
+  border-top: 1px dotted #ccc;
+  border-top: 1px dotted #ccc;
+}
+img {
+  width:60px;
+  padding:10px;
+}
